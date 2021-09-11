@@ -1,0 +1,47 @@
+#TEXT EDITING
+alias n="nvim"
+alias dn="doas nvim"
+alias v="vim"
+alias dv"doas nvim"
+
+#PACMAN PACKAGE MANAGER
+alias dps="doas pacman -Syu"
+alias dpr="doas pacman -R"
+alias dprcns="doas pacman -Rcns"
+
+#NAVIGATION 
+#JUMP TO CONFIG
+alias slstatusrc="dn /home/dawn/.config/slstatus/config.h"
+alias xinitrc="dn /home/dawn/.xinitrc"
+alias aliasrc="dn /home/dawn/.config/zsh/aliasrc"
+alias zathurarc="dn /home/dawn/.config/zathura/zathurarc"
+alias picomrc="dn /home/dawn/.config/picom/picom.conf"
+#JUMP TO DIRECTORY
+alias temps="cd /home/dawn/Work/1-Templates && ls"
+alias mang="cd /home/dawn/1-Library/1-Manga && ls"
+alias fic="cd /home/dawn/1-Library/2-Fiction && ls"
+alias nfic="cd /home/dawn/1-Library/3-NonFiction && ls"
+alias pro="n /home/dawn/3-Work/0-Project/dawn.tex"
+alias proj="cd /home/dawn/3-Work/0-Project/ && ls"
+alias lib="cd /home/dawn/1-Library/ && ls"
+#JUMPING
+alias ..="cd .. && ls"
+#COPYING, MOVING, RENAMIMG FILES
+alias rmr="doas rm -r"
+alias cpr="doas cp -r"
+#COMPILATION
+alias dmci="doas make clean install"
+
+#RUN PROGRAMMES FROM SHELL
+alias z="devour zathura"
+alias mpv="devour mpv"
+alias sxiv="devour sxiv"
+
+#MISPELLINGS
+alias apci="acpi"
+
+#PRETTIER COMMANDS
+alias ls="exa --group-directories-first"
+alias ka="killall"
+alias ytda="youtube-dl -x --audio-format mp3"
+#alias cf="cd $(find -type d | fzf)"
